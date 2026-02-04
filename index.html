@@ -1,105 +1,349 @@
-<section id="personnel" class="section">
-  <div class="section-inner">
-    <h2>Regional Personnel Directory</h2>
-    <p class="lead">
-      Public-facing list of operational contacts across Latvia, Lithuania, Estonia and Poland.
-      All data is intentionally non-sensitive and serves as a monitoring honeypot.
-    </p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NorthBridge Systems | Regional Billing Infrastructure</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-    <div class="personnel-grid">
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="logo">NorthBridge Systems</div>
+    <nav class="nav" id="nav">
+      <a href="#hero">Home</a>
+      <a href="#vision">Vision</a>
+      <a href="#countries">Countries</a>
+      <a href="#governance">Governance</a>
+      <a href="#success">Success Stories</a>
+      <a href="#personnel">Personnel</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">☰</button>
+  </header>
 
-      <!-- Latvia -->
-      <article class="personnel-card">
-        <h3>Latvia</h3>
-        <ul class="personnel-list">
-          <li>
-            <strong>Elina</strong> Krastina — Country Lead  
-            <span class="email">elina.krastina@northbridge-lv.com</span>
-          </li>
-          <li>
-            <strong>Markus</strong> Ozols — Marketing  
-            <span class="email">markus.ozols@northbridge-lv.com</span>
-          </li>
-          <li>
-            <strong>Ilze</strong> Berzina — Finance  
-            <span class="email">ilze.berzina@northbridge-lv.com</span>
-          </li>
-          <li>
-            <strong>Raitis</strong> Lapsa — HR  
-            <span class="email">raitis.lapsa@northbridge-lv.com</span>
-          </li>
-        </ul>
-      </article>
+  <main>
 
-      <!-- Lithuania -->
-      <article class="personnel-card">
-        <h3>Lithuania</h3>
-        <ul class="personnel-list">
-          <li>
-            <strong>Greta</strong> Jankauskaite — Country Lead  
-            <span class="email">greta.jankauskaite@northbridge-lt.com</span>
-          </li>
-          <li>
-            <strong>Jonas</strong> Petrauskas — Marketing  
-            <span class="email">jonas.petrauskas@northbridge-lt.com</span>
-          </li>
-          <li>
-            <strong>Ruta</strong> Valantine — Finance  
-            <span class="email">ruta.valantine@northbridge-lt.com</span>
-          </li>
-          <li>
-            <strong>Mantas</strong> Kavaliauskas — HR  
-            <span class="email">mantas.kavaliauskas@northbridge-lt.com</span>
-          </li>
-        </ul>
-      </article>
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <h1>Unified billing infrastructure for Latvia, Lithuania, Estonia & Poland.</h1>
+          <p>
+            NorthBridge Systems provides a consistent, compliant and scalable billing foundation
+            across four interconnected markets — supported by local expertise and regional alignment.
+          </p>
+          <div class="hero-actions">
+            <button class="btn-primary" data-scroll="#contact">Get in touch</button>
+            <button class="btn-secondary" data-scroll="#countries">Explore our footprint</button>
+          </div>
+          <p class="hero-footnote">
+            Local teams in every country. Shared standards. One regional platform.
+          </p>
+        </div>
 
-      <!-- Estonia -->
-      <article class="personnel-card">
-        <h3>Estonia</h3>
-        <ul class="personnel-list">
-          <li>
-            <strong>Karl</strong> Tamm — Country Lead  
-            <span class="email">karl.tamm@northbridge-ee.com</span>
-          </li>
-          <li>
-            <strong>Liisa</strong> Saar — Marketing  
-            <span class="email">liisa.saar@northbridge-ee.com</span>
-          </li>
-          <li>
-            <strong>Mart</strong> Põder — Finance  
-            <span class="email">mart.poder@northbridge-ee.com</span>
-          </li>
-          <li>
-            <strong>Annika</strong> Vaher — HR  
-            <span class="email">annika.vaher@northbridge-ee.com</span>
-          </li>
-        </ul>
-      </article>
+        <div class="hero-panel">
+          <div class="hero-map">
+            <h2>Regional Presence</h2>
+            <ul>
+              <li><span class="dot dot-lv"></span>Latvia · Riga</li>
+              <li><span class="dot dot-lt"></span>Lithuania · Vilnius</li>
+              <li><span class="dot dot-ee"></span>Estonia · Tallinn</li>
+              <li><span class="dot dot-pl"></span>Poland · Warsaw</li>
+            </ul>
+          </div>
 
-      <!-- Poland -->
-      <article class="personnel-card">
-        <h3>Poland</h3>
-        <ul class="personnel-list">
-          <li>
-            <strong>Piotr</strong> Kowalski — Country Lead  
-            <span class="email">piotr.kowalski@northbridge-pl.com</span>
-          </li>
-          <li>
-            <strong>Magda</strong> Zielinska — Marketing  
-            <span class="email">magda.zielinska@northbridge-pl.com</span>
-          </li>
-          <li>
-            <strong>Tomasz</strong> Nowak — Finance  
-            <span class="email">tomasz.nowak@northbridge-pl.com</span>
-          </li>
-          <li>
-            <strong>Karolina</strong> Wójcik — HR  
-            <span class="email">karolina.wojcik@northbridge-pl.com</span>
-          </li>
-        </ul>
-      </article>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-label">Focus</span>
+              <span class="stat-value">Billing infrastructure</span>
+            </div>
+            <div class="stat">
+              <span class="stat-label">Model</span>
+              <span class="stat-value">Local teams, unified platform</span>
+            </div>
+            <div class="stat">
+              <span class="stat-label">Approach</span>
+              <span class="stat-value">Compliance-first</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    </div>
-  </div>
-</section>
+    <!-- VISION -->
+    <section id="vision" class="section">
+      <div class="section-inner">
+        <h2>Our Vision</h2>
+        <p class="lead">
+          NorthBridge Systems aims to provide a reliable, transparent and regionally aligned billing
+          foundation for businesses operating across the Baltics and Poland. We combine unified
+          standards with local regulatory expertise to support consistent operations across borders.
+        </p>
+
+        <div class="grid grid-3">
+          <article class="card">
+            <h3>Unified Platform</h3>
+            <p>A single billing layer adapted to local tax rules, languages and workflows.</p>
+          </article>
+
+          <article class="card">
+            <h3>Local Expertise</h3>
+            <p>Country teams ensure compliance, cultural understanding and market alignment.</p>
+          </article>
+
+          <article class="card">
+            <h3>Regional Governance</h3>
+            <p>A cross-country C‑board ensures balanced decision-making and shared accountability.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- COUNTRY COVERAGE -->
+    <section id="countries" class="section section-alt">
+      <div class="section-inner">
+        <h2>Country Coverage</h2>
+        <p class="lead">
+          Each market has its own dedicated team, operational focus and regulatory expertise.
+        </p>
+
+        <div class="grid grid-4">
+
+          <article class="card country-card">
+            <h3>Latvia</h3>
+            <p>Riga-based operations supporting fintech, SaaS and service providers.</p>
+            <ul class="pill-list">
+              <li>Local invoicing rules</li>
+              <li>Latvian & English support</li>
+              <li>Regional integrations</li>
+            </ul>
+          </article>
+
+          <article class="card country-card">
+            <h3>Lithuania</h3>
+            <p>Vilnius hub serving high-growth startups and regulated entities.</p>
+            <ul class="pill-list">
+              <li>EU regulatory alignment</li>
+              <li>Lithuanian & English support</li>
+              <li>Payment partnerships</li>
+            </ul>
+          </article>
+
+          <article class="card country-card">
+            <h3>Estonia</h3>
+            <p>Tallinn office focused on digital-first and e‑residency businesses.</p>
+            <ul class="pill-list">
+              <li>Digital-native workflows</li>
+              <li>Estonian & English support</li>
+              <li>API-first approach</li>
+            </ul>
+          </article>
+
+          <article class="card country-card">
+            <h3>Poland</h3>
+            <p>Warsaw presence supporting enterprise-scale operations.</p>
+            <ul class="pill-list">
+              <li>High-volume billing</li>
+              <li>Polish & English support</li>
+              <li>Enterprise onboarding</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- GOVERNANCE -->
+    <section id="governance" class="section">
+      <div class="section-inner">
+        <h2>Governance</h2>
+        <p class="lead">
+          Our governance model ensures balanced representation, transparent oversight and
+          regionally aligned decision-making.
+        </p>
+
+        <div class="grid grid-2">
+          <article class="card">
+            <h3>C‑Board Structure</h3>
+            <ul class="list">
+              <li>One representative from Latvia</li>
+              <li>One representative from Lithuania</li>
+              <li>One representative from Estonia</li>
+              <li>One representative from Poland</li>
+            </ul>
+            <p class="muted">The board meets regularly to align strategy and compliance priorities.</p>
+          </article>
+
+          <article class="card">
+            <h3>Guiding Principles</h3>
+            <ul class="list">
+              <li>Shared standards, local autonomy</li>
+              <li>Transparent reporting</li>
+              <li>Compliance-first mindset</li>
+              <li>Long-term regional perspective</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SUCCESS STORIES -->
+    <section id="success" class="section section-alt">
+      <div class="section-inner">
+        <h2>Success Stories</h2>
+        <p class="lead">
+          Realistic examples of how organizations benefit from unified billing operations.
+        </p>
+
+        <div class="grid grid-3">
+          <article class="card">
+            <h3>Improved Cross-Border Consistency</h3>
+            <p>
+              A Baltic SaaS provider achieved consistent reporting across four markets by adopting
+              a unified billing workflow aligned with local regulations.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Operational Efficiency Gains</h3>
+            <p>
+              A Lithuanian logistics company reduced administrative overhead by centralizing
+              invoice generation while maintaining local compliance.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Reliable Multi-Market Expansion</h3>
+            <p>
+              An Estonian digital services firm expanded into Poland with predictable billing
+              processes and localized support.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PERSONNEL DIRECTORY -->
+    <section id="personnel" class="section">
+      <div class="section-inner">
+        <h2>Regional Personnel Directory</h2>
+        <p class="lead">
+          Public-facing list of fictional operational contacts across all four markets.
+        </p>
+
+        <div class="personnel-grid">
+
+          <!-- LATVIA -->
+          <article class="personnel-card">
+            <h3>Latvia</h3>
+            <ul class="personnel-list">
+              <li><strong>Elina</strong> Krastina — Country Lead <span class="email">elina.krastina@northbridge-lv.com</span></li>
+              <li><strong>Markus</strong> Ozols — Marketing <span class="email">markus.ozols@northbridge-lv.com</span></li>
+              <li><strong>Ilze</strong> Berzina — Finance <span class="email">ilze.berzina@northbridge-lv.com</span></li>
+              <li><strong>Raitis</strong> Lapsa — HR <span class="email">raitis.lapsa@northbridge-lv.com</span></li>
+              <li><strong>Kristaps</strong> Liepa — Operations <span class="email">kristaps.liepa@northbridge-lv.com</span></li>
+              <li><strong>Agnese</strong> Sila — Compliance <span class="email">agnese.sila@northbridge-lv.com</span></li>
+            </ul>
+          </article>
+
+          <!-- LITHUANIA -->
+          <article class="personnel-card">
+            <h3>Lithuania</h3>
+            <ul class="personnel-list">
+              <li><strong>Greta</strong> Jankauskaite — Country Lead <span class="email">greta.jankauskaite@northbridge-lt.com</span></li>
+              <li><strong>Jonas</strong> Petrauskas — Marketing <span class="email">jonas.petrauskas@northbridge-lt.com</span></li>
+              <li><strong>Ruta</strong> Valantine — Finance <span class="email">ruta.valantine@northbridge-lt.com</span></li>
+              <li><strong>Mantas</strong> Kavaliauskas — HR <span class="email">mantas.kavaliauskas@northbridge-lt.com</span></li>
+              <li><strong>Simona</strong> Kairiene — Operations <span class="email">simona.kairiene@northbridge-lt.com</span></li>
+              <li><strong>Arnas</strong> Vaitkus — Compliance <span class="email">arnas.vaitkus@northbridge-lt.com</span></li>
+            </ul>
+          </article>
+
+          <!-- ESTONIA -->
+          <article class="personnel-card">
+            <h3>Estonia</h3>
+            <ul class="personnel-list">
+              <li><strong>Karl</strong> Tamm — Country Lead <span class="email">karl.tamm@northbridge-ee.com</span></li>
+              <li><strong>Liisa</strong> Saar — Marketing <span class="email">liisa.saar@northbridge-ee.com</span></li>
+              <li><strong>Mart</strong> Põder — Finance <span class="email">mart.poder@northbridge-ee.com</span></li>
+              <li><strong>Annika</strong> Vaher — HR <span class="email">annika.vaher@northbridge-ee.com</span></li>
+              <li><strong>Rasmus</strong> Kull — Operations <span class="email">rasmus.kull@northbridge-ee.com</span></li>
+              <li><strong>Maarja</strong> Lill — Compliance <span class="email">maarja.lill@northbridge-ee.com</span></li>
+            </ul>
+          </article>
+
+          <!-- POLAND -->
+          <article class="personnel-card">
+            <h3>Poland</h3>
+            <ul class="personnel-list">
+              <li><strong>Piotr</strong> Kowalski — Country Lead <span class="email">piotr.kowalski@northbridge-pl.com</span></li>
+              <li><strong>Magda</strong> Zielinska — Marketing <span class="email">magda.zielinska@northbridge-pl.com</span></li>
+              <li><strong>Tomasz</strong> Nowak — Finance <span class="email">tomasz.nowak@northbridge-pl.com</span></li>
+              <li><strong>Karolina</strong> Wójcik — HR <span class="email">karolina.wojcik@northbridge-pl.com</span></li>
+              <li><strong>Jakub</strong> Lewandowski — Operations <span class="email">jakub.lewandowski@northbridge-pl.com</span></li>
+              <li><strong>Oliwia</strong> Maj — Compliance <span class="email">oliwia.maj@northbridge-pl.com</span></li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="section-inner">
+        <h2>Contact Us</h2>
+        <p class="lead">
+          Interested in collaborating or learning more about NorthBridge Systems?
+          Share your details and we’ll reach out.
+        </p>
+
+        <form id="contact-form" class="contact-form">
+          <div class="form-row">
+            <label>
+              Name
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" required />
+            </label>
+          </div>
+
+          <div class="form-row">
+            <label>
+              Country of interest
+              <select name="country" required>
+                <option value="">Select a country</option>
+                <option value="Latvia">Latvia</option>
+                <option value="Lithuania">Lithuania</option>
+                <option value="Estonia">Estonia</option>
+                <option value="Poland">Poland</option>
+                <option value="Multiple">Multiple countries</option>
+              </select>
+            </label>
+          </div>
+
+          <label>
+            Message
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+
+          <button type="submit" class="btn-primary">Submit</button>
+          <p id="form-status" class="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p>© <span id="year"></span> NorthBridge Systems. Regional billing infrastructure for the Baltics & Poland.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
